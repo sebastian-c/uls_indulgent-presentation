@@ -1,0 +1,123 @@
+---
+title: "Annoying little problems"
+subtitle: "A self-indulgent presentation"
+author: "Sebastian Campbell"
+engine: knitr
+format: 
+  revealjs:
+    preview-links: true
+    chalkboard: true
+    theme: 
+      - blood
+      - lib/custom.scss
+    navigation-mode: vertical
+    incremental: true
+---
+
+# Disclaimer
+
+:::{.nonincremental}
+- This presentation is no-effort
+- It will be quick
+- There will be time for questions
+:::
+
+
+::: {.notes}
+Use [Quarto docs](https://quarto.org/docs/presentations/) for reference
+:::
+
+# Annoying problems 
+
+:::{.nonincremental}
+- Happy families are all alike; every unhappy family is unhappy in its own way
+  - _Anna Karenina_ - Leo Tolstoy
+- Let's start with the most popular problems first
+:::
+
+# Text encoding
+
+## A bit of history
+
+## A bit of history (yawn)
+
+:::: {.columns}
+:::{.column width="40%" .nonincremental}
+
+- Need a mapping from binary to text
+- Americans created ASCII
+:::
+:::{.column width="60%"}
+![](img/ascii.png)
+:::
+::::
+
+## 
+
+:::{.r-fit-text}
+Unicode!
+:::
+
+🤣ಠ_ಠ龍🔥𓁣🗿(╯°□°)╯︵ ┻━┻ ف🍆♘a̶̧̧̱̙͕͖̝̹͔̮͉̱̎̐̅̾͆̊̽͂̿̈̍̽́̚ͅͅ🤦❦💩ℜ🁷🙀
+
+
+# Picking colours
+
+## What colour formats are there?
+
+- Screen
+  - RGB
+  - HSL
+- Print
+  - CMYK
+
+## Red Green Blue (RGB)
+- Classic
+- Basically what a monitor shows
+- Hard for humans to use
+
+## Hue Saturation Lightness
+- Easy for humans
+- Needs a bit more effort to specify
+- Just convert to RGB
+
+## Cyan Magenta Yellow Key (CMYK)
+
+::::{.columns}
+:::{.column width="50%"}
+- Used for print, fewer colours than RGB
+- When a screen has nothing, it's black
+- When paper has nothing, it's white
+- You'll probably never have to use this
+:::
+:::{.column width="50%"  .fragment}
+![](img/rgb-vs-cmyk.png)
+:::
+::::
+
+## Cool theory bro
+But in practice?
+
+- Hex colour codes as a way to specify RGB
+- #000000 is black
+- #FFFFFF is white
+
+# Image formats
+
+## Types of image formats {#color-slide}
+
+::::{.columns}
+:::{.column width="50%"}
+### Vector graphics
+
+- Perfect description of data
+:::
+:::{.column width="50%"}
+### Raster graphics
+:::
+::::
+
+
+# Hash functions
+
+# Timezones
