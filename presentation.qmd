@@ -80,6 +80,7 @@ Unicode!
 - Easy for humans
 - Needs a bit more effort to specify
 - Just convert to RGB
+- [Colour selector](https://redketchup.io/color-picker)
 
 ## Cyan Magenta Yellow Key (CMYK)
 
@@ -101,6 +102,10 @@ But in practice?
 - Hex colour codes as a way to specify RGB
 - #000000 is black
 - #FFFFFF is white
+- #------XX 
+  - Transparency
+- [Colour picker](https://imagecolorpicker.com/en)
+
 
 # Image formats
 
@@ -121,3 +126,5 @@ But in practice?
 # Hash functions
 
 # Timezones
+
+# Integers and Floats

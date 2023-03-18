@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "presentation.html#a-bit-of-history",
+    "href": "presentation.html#a-bit-of-history",
+    "title": "Annoying little problems",
+    "section": "A bit of history",
+    "text": "A bit of history"
+  },
+  {
+    "objectID": "presentation.html#a-bit-of-history-yawn",
+    "href": "presentation.html#a-bit-of-history-yawn",
+    "title": "Annoying little problems",
+    "section": "A bit of history (yawn)",
+    "text": "A bit of history (yawn)\n\n\n\nNeed a mapping from binary to text\nAmericans created ASCII"
+  },
+  {
+    "objectID": "presentation.html#section",
+    "href": "presentation.html#section",
+    "title": "Annoying little problems",
+    "section": "",
+    "text": "Unicode!\n\n🤣ಠ_ಠ龍🔥𓁣🗿(╯°□°)╯︵ ┻━┻ ف🍆♘a̶̧̧̱̙͕͖̝̹͔̮͉̱̎̐̅̾͆̊̽͂̿̈̍̽́̚ͅͅ🤦❦💩ℜ🁷🙀"
+  },
+  {
+    "objectID": "presentation.html#what-colour-formats-are-there",
+    "href": "presentation.html#what-colour-formats-are-there",
+    "title": "Annoying little problems",
+    "section": "What colour formats are there?",
+    "text": "What colour formats are there?\n\nScreen\n\nRGB\nHSL\n\nPrint\n\nCMYK"
+  },
+  {
+    "objectID": "presentation.html#red-green-blue-rgb",
+    "href": "presentation.html#red-green-blue-rgb",
+    "title": "Annoying little problems",
+    "section": "Red Green Blue (RGB)",
+    "text": "Red Green Blue (RGB)\n\nClassic\nBasically what a monitor shows\nHard for humans to use"
+  },
+  {
+    "objectID": "presentation.html#hue-saturation-lightness",
+    "href": "presentation.html#hue-saturation-lightness",
+    "title": "Annoying little problems",
+    "section": "Hue Saturation Lightness",
+    "text": "Hue Saturation Lightness\n\nEasy for humans\nNeeds a bit more effort to specify\nJust convert to RGB\nColour selector"
+  },
+  {
+    "objectID": "presentation.html#cyan-magenta-yellow-key-cmyk",
+    "href": "presentation.html#cyan-magenta-yellow-key-cmyk",
+    "title": "Annoying little problems",
+    "section": "Cyan Magenta Yellow Key (CMYK)",
+    "text": "Cyan Magenta Yellow Key (CMYK)\n\n\n\nUsed for print, fewer colours than RGB\nWhen a screen has nothing, it’s black\nWhen paper has nothing, it’s white\nYou’ll probably never have to use this"
+  },
+  {
+    "objectID": "presentation.html#cool-theory-bro",
+    "href": "presentation.html#cool-theory-bro",
+    "title": "Annoying little problems",
+    "section": "Cool theory bro",
+    "text": "Cool theory bro\nBut in practice?\n\nHex colour codes as a way to specify RGB\n#000000 is black\n#FFFFFF is white\n#——XX\n\nTransparency\n\nColour picker"
+  },
+  {
+    "objectID": "presentation.html#color-slide",
+    "href": "presentation.html#color-slide",
+    "title": "Annoying little problems",
+    "section": "Types of image formats",
+    "text": "Types of image formats\n\n\nVector graphics\n\nPerfect description of data\n\n\nRaster graphics"
+  }
+]
