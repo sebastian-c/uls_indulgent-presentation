@@ -21,6 +21,27 @@
     "text": "Unicode!\n\n🤣ಠ_ಠ龍🔥𓁣🗿(╯°□°)╯︵ ┻━┻ ف🍆♘a̶̧̧̱̙͕͖̝̹͔̮͉̱̎̐̅̾͆̊̽͂̿̈̍̽́̚ͅͅ🤦❦💩ℜ🁷🙀"
   },
   {
+    "objectID": "presentation.html#unicode-fixed-everything",
+    "href": "presentation.html#unicode-fixed-everything",
+    "title": "Annoying little problems",
+    "section": "Unicode fixed everything",
+    "text": "Unicode fixed everything\n\nAll languages in one neat format\nExcept Windows (CP1252)\n\nExcel removes leading zeroes\nBe really careful when saving a file opened as UTF-8"
+  },
+  {
+    "objectID": "presentation.html#how-do-you-know-what-encoding-you-have",
+    "href": "presentation.html#how-do-you-know-what-encoding-you-have",
+    "title": "Annoying little problems",
+    "section": "How do you know what encoding you have?",
+    "text": "How do you know what encoding you have?\n\nYou can’t really know\nLooking\n\nï»¿\n\nSoftware\n\nSearch “detect file encoding”"
+  },
+  {
+    "objectID": "presentation.html#how-can-i-prevent-problems",
+    "href": "presentation.html#how-can-i-prevent-problems",
+    "title": "Annoying little problems",
+    "section": "How can I prevent problems?",
+    "text": "How can I prevent problems?\n\nConvert to UTF-8 ASAP\nAsk collaborators to use UTF-8\n\nBeing consistent is better than being right\n\nCheck your locale\nBe careful when using Excel to save files you’re going to ingest using automation"
+  },
+  {
     "objectID": "presentation.html#what-colour-formats-are-there",
     "href": "presentation.html#what-colour-formats-are-there",
     "title": "Annoying little problems",
@@ -56,10 +77,87 @@
     "text": "Cool theory bro\nBut in practice?\n\nHex colour codes as a way to specify RGB\n#000000 is black\n#FFFFFF is white\n#——XX\n\nTransparency\n\nColour picker"
   },
   {
-    "objectID": "presentation.html#color-slide",
-    "href": "presentation.html#color-slide",
+    "objectID": "presentation.html#image-comparison",
+    "href": "presentation.html#image-comparison",
     "title": "Annoying little problems",
     "section": "Types of image formats",
-    "text": "Types of image formats\n\n\nVector graphics\n\nPerfect description of data\n\n\nRaster graphics"
+    "text": "Types of image formats\n\n\nVector graphics\n\nDescribes data as points and lines\nGood for simple shapes\n\n\nRaster graphics\n\nDescribes data as a grid of pixels"
+  },
+  {
+    "objectID": "presentation.html#raster-formats",
+    "href": "presentation.html#raster-formats",
+    "title": "Annoying little problems",
+    "section": "Raster formats",
+    "text": "Raster formats\n\n.bmp\n.jpeg, .jpg\n.png"
+  },
+  {
+    "objectID": "presentation.html#vector-formats",
+    "href": "presentation.html#vector-formats",
+    "title": "Annoying little problems",
+    "section": "Vector formats",
+    "text": "Vector formats\n\n.svg\n.pdf"
+  },
+  {
+    "objectID": "presentation.html#whats-a-hash",
+    "href": "presentation.html#whats-a-hash",
+    "title": "Annoying little problems",
+    "section": "What’s a hash?",
+    "text": "What’s a hash?\n\nFingerprint calculated with a hash function\n\nunilasalle: d6e1bc99e8fa6df5120dd41532be1df16adafec7\n\nMultiple types\n\nmd5 (fast, but insecure)\nsha1, sha256, etc (not as fast, but secure)"
+  },
+  {
+    "objectID": "presentation.html#why-would-i-use-a-hash",
+    "href": "presentation.html#why-would-i-use-a-hash",
+    "title": "Annoying little problems",
+    "section": "Why would I use a hash?",
+    "text": "Why would I use a hash?\nExample:\n\n100MB download file, 5 hour analysis\nAnalysis only needs to run when the file changes"
+  },
+  {
+    "objectID": "presentation.html#how-do-computers-store-time",
+    "href": "presentation.html#how-do-computers-store-time",
+    "title": "Annoying little problems",
+    "section": "How do computers store time?",
+    "text": "How do computers store time?\nUnix timestamp\n\nNumber of seconds that have passed since 1st Jan 1970\n\nCalled POSIX time\n\nText format YYYY-MM-DD hh:mm:ss\nExcel uses a counter from 1st Jan 1900"
+  },
+  {
+    "objectID": "presentation.html#timezones",
+    "href": "presentation.html#timezones",
+    "title": "Annoying little problems",
+    "section": "Timezones",
+    "text": "Timezones\n\nUTC is a timezone with no offset and no daylight savings\nAlways work with time in UTC\nOnly convert timezones when displaying data"
+  },
+  {
+    "objectID": "presentation.html#timezones-are-a-pain",
+    "href": "presentation.html#timezones-are-a-pain",
+    "title": "Annoying little problems",
+    "section": "Timezones are a pain",
+    "text": "Timezones are a pain\n\nThere are more countries than there are timezones"
+  },
+  {
+    "objectID": "presentation.html#leap-seconds",
+    "href": "presentation.html#leap-seconds",
+    "title": "Annoying little problems",
+    "section": "Leap seconds",
+    "text": "Leap seconds\n\nThe earth’s spin has been generally slowing\n\nWe need to add leap seconds, e.g.:\n1992-07-01, 1996-01-01, 2006-01-01\nThere may be a negative leap second coming up\n\nMoon’s influence on the earth\n\nWill be abolished before 2035"
+  },
+  {
+    "objectID": "presentation.html#number-comparison",
+    "href": "presentation.html#number-comparison",
+    "title": "Annoying little problems",
+    "section": "Number capacity",
+    "text": "Number capacity\n\nInteger (4 bytes - 32 bits)\n\nMax: 2 147 483 647\n\nFloat (4 bytes/ - 32 bits)\n\nMax: 3.4028235 × 1038\n\nThere are 64 bits of these too\n\nInt max: 9 223 372 036 854 775 807\nFloat max: 10308\n\nHow is this possible?"
+  },
+  {
+    "objectID": "presentation.html#how-floats-work",
+    "href": "presentation.html#how-floats-work",
+    "title": "Annoying little problems",
+    "section": "How floats work",
+    "text": "How floats work\nScientific notation\n\n\nThis means that there are some numbers they can’t represent"
+  },
+  {
+    "objectID": "presentation.html#floats-are-tricky",
+    "href": "presentation.html#floats-are-tricky",
+    "title": "Annoying little problems",
+    "section": "Floats are tricky",
+    "text": "Floats are tricky\n\n1 - 1.1 + 0.1\n\n\n\n[1] -8.326673e-17\n\n\n\nall.equal(1 - 1.1 + 0.1, 0)\n\n\n\n[1] TRUE"
   }
 ]

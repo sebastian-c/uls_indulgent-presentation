@@ -16,11 +16,10 @@ format:
 
 # Disclaimer
 
-:::{.nonincremental}
 - This presentation is no-effort
+  - Not strictly true - I enjoyed making it so it got a bit longer
 - It will be quick
-- There will be time for questions
-:::
+- But there will be time for questions
 
 
 ::: {.notes}
@@ -60,6 +59,28 @@ Unicode!
 
 🤣ಠ_ಠ龍🔥𓁣🗿(╯°□°)╯︵ ┻━┻ ف🍆♘a̶̧̧̱̙͕͖̝̹͔̮͉̱̎̐̅̾͆̊̽͂̿̈̍̽́̚ͅͅ🤦❦💩ℜ🁷🙀
 
+## Unicode fixed everything
+
+- All languages in one neat format
+- Except Windows (CP1252)
+  - Excel removes leading zeroes
+  - Be really careful when saving a file opened as UTF-8
+
+## How do you know what encoding you have?
+
+- You can't _really_ know
+- Looking
+  - ï»¿
+- Software
+  - Search "detect file encoding"
+
+## How can I prevent problems?
+
+- Convert to UTF-8 ASAP
+- Ask collaborators to use UTF-8
+  - Being consistent is better than being right
+- Check your locale
+- Be careful when using Excel to save files you're going to ingest using automation
 
 # Picking colours
 
@@ -109,22 +130,122 @@ But in practice?
 
 # Image formats
 
-## Types of image formats {#color-slide}
+## Types of image formats {#image-comparison}
 
 ::::{.columns}
 :::{.column width="50%"}
 ### Vector graphics
 
-- Perfect description of data
+- Describes data as points and lines
+- Good for simple shapes
 :::
 :::{.column width="50%"}
 ### Raster graphics
+
+- Describes data as a grid of pixels
 :::
 ::::
 
+## Raster formats
+
+- `.bmp`
+- `.jpeg`, `.jpg`
+- `.png`
+
+## Vector formats
+
+- `.svg`
+- `.pdf`
 
 # Hash functions
 
-# Timezones
+## What's a hash?
+
+- Fingerprint calculated with a [hash function](https://www.tools4noobs.com/online_tools/hash/)
+  - **unilasalle**: d6e1bc99e8fa6df5120dd41532be1df16adafec7
+- Multiple types
+  - md5 (fast, but insecure)
+  - sha1, sha256, etc (not as fast, but secure)
+
+## Why would I use a hash?
+
+Example:
+
+- 100MB download file, 5 hour analysis
+- Analysis only needs to run when the file changes
+
+# Time
+
+## How do computers store time?
+
+Unix timestamp
+
+- [Number of seconds that have passed since 1^st^ Jan 1970](https://www.unixtimestamp.com/)
+  - Called POSIX time
+- Text format YYYY-MM-DD hh:mm:ss
+- Excel uses a counter from 1^st^ Jan 1900
+
+## Timezones
+
+- UTC is a timezone with no offset and no **daylight savings**
+- Always work with time in UTC
+- Only convert timezones when displaying data
+
+## Timezones are a pain
+
+- There are more countries than there are timezones
+
+![](img/timezones.png)
+
+## Leap seconds
+
+- The earth's spin has been generally slowing
+  - We need to add leap seconds, e.g.:
+  - `r paste0(sort(sample(.leap.seconds, 3)), collapse=", ")`
+  - There may be a negative leap second coming up
+    - Moon's influence on the earth
+  - Will be abolished before 2035
 
 # Integers and Floats
+
+## Number capacity {#number-comparison}
+
+- Integer (4 bytes - 32 bits)
+  - Max: 2 147 483 647
+- Float (4 bytes/ - 32 bits)
+  - Max: 3.4028235 × 10^38^
+- There are 64 bits of these too
+  - Int max: 9 223 372 036 854 775 807
+  - Float max: 10^308^
+- How is this possible?
+
+## How floats work
+
+Scientific notation
+
+![](img/float.png)
+
+- This means that there are some numbers they can't represent
+
+
+## Floats are tricky
+
+```{r}
+#| echo: true
+#| output-location: fragment
+1 - 1.1 + 0.1
+```
+
+```{r}
+#| echo: true
+#| output-location: fragment
+all.equal(1 - 1.1 + 0.1, 0)
+```
+
+# Recommended watching/reading
+
+- [Tom Scott's video on time zones](https://www.youtube.com/watch?v=-5wpm-gesOY) - Entertaining and informative
+- [The R inferno](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf) - Shaped my understand of R and how to handle difficult issues
+- [Learn Git branching](https://learngitbranching.js.org/) - Game to teach you how to use git and work with branches
+- [R-bloggers](https://www.r-bloggers.com/) - Aggregated blogs of all kinds of things that people are doing with R
+- [Quarto](https://quarto.org/) - Document creation using R or Python
