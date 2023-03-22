@@ -249,3 +249,9 @@ all.equal(1 - 1.1 + 0.1, 0)
 - [Learn Git branching](https://learngitbranching.js.org/) - Game to teach you how to use git and work with branches
 - [R-bloggers](https://www.r-bloggers.com/) - Aggregated blogs of all kinds of things that people are doing with R
 - [Quarto](https://quarto.org/) - Document creation using R or Python
+
+## 
+
+:::{.r-fit-text}
+Thank you!
+:::

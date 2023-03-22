@@ -137,7 +137,7 @@
     "href": "presentation.html#leap-seconds",
     "title": "Annoying little problems",
     "section": "Leap seconds",
-    "text": "Leap seconds\n\nThe earth’s spin has been generally slowing\n\nWe need to add leap seconds, e.g.:\n1992-07-01, 1996-01-01, 2006-01-01\nThere may be a negative leap second coming up\n\nMoon’s influence on the earth\n\nWill be abolished before 2035"
+    "text": "Leap seconds\n\nThe earth’s spin has been generally slowing\n\nWe need to add leap seconds, e.g.:\n1977-01-01, 1992-07-01, 1993-07-01\nThere may be a negative leap second coming up\n\nMoon’s influence on the earth\n\nWill be abolished before 2035"
   },
   {
     "objectID": "presentation.html#number-comparison",
@@ -159,5 +159,12 @@
     "title": "Annoying little problems",
     "section": "Floats are tricky",
     "text": "Floats are tricky\n\n1 - 1.1 + 0.1\n\n\n\n[1] -8.326673e-17\n\n\n\nall.equal(1 - 1.1 + 0.1, 0)\n\n\n\n[1] TRUE"
+  },
+  {
+    "objectID": "presentation.html#section-1",
+    "href": "presentation.html#section-1",
+    "title": "Annoying little problems",
+    "section": "",
+    "text": "Thank you!"
   }
 ]
