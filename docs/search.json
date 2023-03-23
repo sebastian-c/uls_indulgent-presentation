@@ -137,7 +137,7 @@
     "href": "presentation.html#leap-seconds",
     "title": "Annoying little problems",
     "section": "Leap seconds",
-    "text": "Leap seconds\n\nThe earth’s spin has been generally slowing\n\nWe need to add leap seconds, e.g.:\n1977-01-01, 1992-07-01, 1993-07-01\nThere may be a negative leap second coming up\n\nMoon’s influence on the earth\n\nWill be abolished before 2035"
+    "text": "Leap seconds\n\nThe earth’s spin has been generally slowing\n\nWe need to add leap seconds, e.g.:\n1977-01-01, 1980-01-01, 1985-07-01\nThere may be a negative leap second coming up\n\nMoon’s influence on the earth\n\nWill be abolished before 2035"
   },
   {
     "objectID": "presentation.html#number-comparison",
